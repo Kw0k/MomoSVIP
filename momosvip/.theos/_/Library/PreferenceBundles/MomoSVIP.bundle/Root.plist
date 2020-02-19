@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>开启SVIP功能</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>启用</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>fun.kwok.momosvip</string>
+			<key>key</key>
+			<string>svip</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>开启SVIP功能后，将无视墨墨背单词单词量上限。</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>可能有封号风险，建议不要登录账号，低调使用.</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>作者博客</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>www.kwok.fun</string>
+			<key>cell</key>
+			<string>PSTextCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>MomoSVIP</string>
+</dict>
+</plist>
